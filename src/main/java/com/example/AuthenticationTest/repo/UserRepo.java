@@ -1,6 +1,5 @@
 package com.example.AuthenticationTest.repo;
 
-import com.example.AuthenticationTest.dtos.UserDtoResponse;
 import com.example.AuthenticationTest.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

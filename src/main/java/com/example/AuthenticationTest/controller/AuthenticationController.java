@@ -6,12 +6,13 @@ import com.example.AuthenticationTest.dtos.RegisterUserDto;
 import com.example.AuthenticationTest.dtos.UserDtoResponse;
 import com.example.AuthenticationTest.mapper.Mapper;
 import com.example.AuthenticationTest.model.User;
-import com.example.AuthenticationTest.utils.JwtUtils;
 import com.example.AuthenticationTest.service.AuthenticationService;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
+import com.example.AuthenticationTest.utils.JwtUtils;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RequestMapping("/auth")
 @RestController
