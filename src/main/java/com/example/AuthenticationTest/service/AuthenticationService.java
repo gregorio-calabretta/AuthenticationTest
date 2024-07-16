@@ -3,7 +3,6 @@ package com.example.AuthenticationTest.service;
 import com.example.AuthenticationTest.dtos.LoginUserDto;
 import com.example.AuthenticationTest.dtos.RegisterUserDto;
 import com.example.AuthenticationTest.dtos.UserDtoResponse;
-import com.example.AuthenticationTest.mapper.Mapper;
 import com.example.AuthenticationTest.mapper.UserMapper;
 import com.example.AuthenticationTest.model.User;
 import com.example.AuthenticationTest.repo.UserRepo;

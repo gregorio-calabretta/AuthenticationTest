@@ -6,12 +6,10 @@ import com.example.AuthenticationTest.exception.UserNotFoundException;
 import com.example.AuthenticationTest.service.UserService;
 import com.example.AuthenticationTest.service.UserServiceImpl;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 
 @RestController
